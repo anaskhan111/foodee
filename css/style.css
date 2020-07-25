@@ -804,7 +804,20 @@ p {
   position: relative;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
-  padding-left: 50px;
+  padding-left: 80px;
+}
+
+#fh5co-menus .fh5co-food-menu h2.fh5co-dessi {
+  padding-left: 80px;
+}
+#fh5co-menus .fh5co-food-menu h2.fh5co-dessi:before {
+  background: url(../images/0301-desi.png) no-repeat;
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 64px;
+  height: 64px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
   background: url(../images/0301-pina-colada.png) no-repeat;
